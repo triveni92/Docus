@@ -1,0 +1,336 @@
+Received: from GVXPR04MB12090.eurprd04.prod.outlook.com
+ (2603:10a6:150:2be::24) by AM0PR04MB4466.eurprd04.prod.outlook.com with
+ HTTPS; Fri, 25 Sep 2026 11:12:34 +0000
+Received: from MRWPR04MB12094.eurprd04.prod.outlook.com (2603:10a6:501:97::10)
+ by GVXPR04MB12090.eurprd04.prod.outlook.com (2603:10a6:150:2be::24) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.451.18; Fri, 25 Sep
+ 2026 11:12:33 +0000
+Received: from MRWPR04MB12094.eurprd04.prod.outlook.com
+ ([fe80::3f52:7182:5094:fdfc]) by MRWPR04MB12094.eurprd04.prod.outlook.com
+ ([fe80::3f52:7182:5094:fdfc%6]) with mapi id 15.21.0451.014; Fri, 25 Sep 2026
+ 11:12:33 +0000
+From: Vaidyanathan Aniruddh <aniruddh.vaidyanathan@scania.com>
+To: Triveni Jasti <jasti.triveni@scania.com>, "jasti.10855528@ltimindtree.com"
+	<jasti.10855528@ltimindtree.com>
+CC: "Gaurav Kumar Sharma (IN24517)" <gauravkumar.sharma2@ltm.com>,
+	"geetansh.soni" <geetansh.soni@ltm.com>
+Subject: SPO UAT Defect logging and responsiveness
+Thread-Topic: SPO UAT Defect logging and responsiveness
+Thread-Index: AQHdTN2i7RLFVAA4okeJNsjTG4ROMg==
+Date: Fri, 25 Sep 2026 11:12:33 +0000
+Message-ID:
+	<MRWPR04MB12094A4BA0D5104F0D06D04299B802@MRWPR04MB12094.eurprd04.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource:
+	MRWPR04MB12094.eurprd04.prod.outlook.com
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-Network-Message-Id:
+	488fddf4-70e2-4d0b-7862-08df1af5e5e1
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-reactions: allow
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(920097)(425001)(930201)(20251009189)(140003);
+X-Microsoft-Antispam-Message-Info:
+	Th5BovuuVRC859V4TSyuYbebGs/HGZEeR4hnWm6JmmJoBT7cepuqaNJkGQ5JPic6y11P0URbqnx/Ahb4VxY6KzNeWm37mQTq2/auyb0TmIVjPP4RQG4aXMrj5mtldTEUMHLZGirB9m7jBusKGlK9iP987MM3VxmyLxrqrbStHkj7s46nxK4QZEq5Jk1txiI1g8Xe8uc54ZmzZNcPhT+66cOjECP8zibnMffZgO2hqWeD1vyWqGoLMVVUtB47544j+wNY7zb8+z4ANp7q5w+RzILsnhSjN+lHPOHyRxTx2W58W8cn+4Re/LJSBMlNEgOkG+C8ZAdtEnwFHTH+hi6tFKqmYjBlPmIg7YCrFxi+xfLVEg6aG+8YhF4dRWWTCMSNTReIfoc2FinXSwOFdI6i1Hbt0qVj7f+J7e6hIde3XRdGpwxs82Pp08oW3ZJK1Sn4E9lppZrZmLdNxmJExX+GY0c7e8wvaUK3bOjqFGJDEgKDuakgap6kZBrPxgWJqDcUEOZkFbbJjS2bDXmvCkSuKcBsLC1VqXJCZl2kZfMljstwz97UsLb8V3U9E7bk20dmlHRpDvsCx1CrIaW4WMPRF8hjvdXQHWk3UvehRvnkQkXElFrdSebvRZQfZVF3ujwFKGLf2y723i/S5tIXh4mF6kChupQx2y+ijNBgB1Rf8d4oQPiagen8Wfcmst8wJ+R47xdY6MgYnPFXGJ0bmFtFVvOs3CUxkD8tiqiBeDsTsJ/KWt47g7ZYvMLrwJRP6e74UjGGCj/K3gnAlkmKzgThFO7yYjPzHJMo/3LbXvzWBQL4qsbk9bT4wP0MmFM10Rsk
+Content-Type: multipart/related;
+	boundary="_004_MRWPR04MB12094A4BA0D5104F0D06D04299B802MRWPR04MB12094eu_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+
+--_004_MRWPR04MB12094A4BA0D5104F0D06D04299B802MRWPR04MB12094eu_
+Content-Type: multipart/alternative;
+	boundary="_000_MRWPR04MB12094A4BA0D5104F0D06D04299B802MRWPR04MB12094eu_"
+
+--_000_MRWPR04MB12094A4BA0D5104F0D06D04299B802MRWPR04MB12094eu_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Jasti,
+
+As discussed over our meeting today, please let me know your plans and thou=
+ghts on the following:
+
+
+  1.
+Defect logging and handling of cases when multiple markets start testing us=
+ing the UAT checklist shared.
+  2.
+I really think responsiveness must be improved on all the Teams channels, U=
+AT checklists and chats with business users. I would like for you to align =
+the testing team effectively. Perhaps we can have one tester (Yash, Shush, =
+etc.) per market? And you can lead them overall?
+
+Regarding your questions about the UAT test cases, I think you and the team=
+ need to align more internally on the quality of the cases. I believe this =
+should have been sorted out before the UAT checklist were shared.
+
+Nonetheless, we can keep fixing the test cases. Our goal is to thoroughly t=
+est and get proper feedback from the users so that our product is good. Let=
+'s work towards this objective collectively.
+
+Thanks and Regards,
+Aniruddh Vaidyanathan
+Product Owner | UDBW - Workshop Production |  Scania CV AB
+Mobile:  +46 (0) 737608216
+B260, Verkstadsv=E4gen 11, 151 38, S=F6dert=E4lje
+
+[signatureImage]
+
+
+--_000_MRWPR04MB12094A4BA0D5104F0D06D04299B802MRWPR04MB12094eu_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+</head>
+<body>
+<div style=3D"direction: ltr; font-family: Aptos, Arial, Helvetica, sans-se=
+rif; font-size: 12pt; color: rgb(0, 0, 0);">
+Hello Jasti,</div>
+<div style=3D"direction: ltr; font-family: Aptos, Arial, Helvetica, sans-se=
+rif; font-size: 12pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"direction: ltr; font-family: Aptos, Arial, Helvetica, sans-se=
+rif; font-size: 12pt; color: rgb(0, 0, 0);">
+As discussed over our meeting today, please let me know your plans and thou=
+ghts on the following:</div>
+<div style=3D"direction: ltr; font-family: Aptos, Arial, Helvetica, sans-se=
+rif; font-size: 12pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+<ol start=3D"1" data-editing-info=3D"{&quot;applyListStyleFromLevel&quot;:f=
+alse,&quot;orderedStyleType&quot;:1}" style=3D"direction: ltr; margin-top: =
+0px; margin-bottom: 0px; list-style-type: decimal;">
+<li style=3D"font-family: Aptos, Arial, Helvetica, sans-serif; font-size: 1=
+2pt; color: rgb(0, 0, 0); direction: ltr; margin-top: 0px; margin-bottom: 0=
+px;">
+<div role=3D"presentation" style=3D"direction: ltr;">Defect logging and han=
+dling of cases when multiple markets start testing using the UAT checklist =
+shared.</div>
+</li><li style=3D"font-family: Aptos, Arial, Helvetica, sans-serif; font-si=
+ze: 12pt; color: rgb(0, 0, 0); direction: ltr; margin-top: 0px; margin-bott=
+om: 0px;">
+<div role=3D"presentation" style=3D"direction: ltr;">I really think respons=
+iveness must be improved on all the Teams channels, UAT checklists and chat=
+s with business users. I would like for you to align the testing team effec=
+tively. Perhaps we can have one tester
+ (Yash, Shush, etc.) per market? And you can lead them overall?</div>
+</li></ol>
+<div style=3D"direction: ltr; margin-top: 0px; margin-bottom: 0px; font-fam=
+ily: Aptos, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0,=
+ 0);">
+<br>
+</div>
+<div style=3D"direction: ltr; margin-top: 0px; margin-bottom: 0px; font-fam=
+ily: Aptos, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0,=
+ 0);">
+Regarding your questions about the UAT test cases, I think you and the team=
+ need to align more internally on the quality of the cases. I believe this =
+should have been sorted out before the UAT checklist were shared.</div>
+<div style=3D"direction: ltr; margin-top: 0px; margin-bottom: 0px; font-fam=
+ily: Aptos, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0,=
+ 0);">
+<br>
+</div>
+<div style=3D"direction: ltr; margin-top: 0px; margin-bottom: 0px; font-fam=
+ily: Aptos, Arial, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0,=
+ 0);">
+Nonetheless, we can keep fixing the test cases. Our goal is to thoroughly t=
+est and get proper feedback from the users so that our product is good. Let=
+'s work towards this objective collectively.</div>
+<div id=3D"ms-outlook-mobile-body-separator-line" dir=3D"ltr"><br>
+</div>
+<div id=3D"ms-outlook-mobile-signature">
+<div class=3D"MsoNormal" style=3D"text-align: left; text-indent: 0px; text-=
+transform: none; margin: 0px; font-family: Aptos, sans-serif; font-size: 12=
+pt; color: rgb(31, 73, 125);">
+Thanks and Regards,</div>
+<div style=3D"text-align: left; text-indent: 0px; text-transform: none; mar=
+gin: 0px; font-family: Aptos, sans-serif; font-size: 12pt; color: rgb(31, 7=
+3, 125);">
+<b>Aniruddh Vaidyanathan</b></div>
+<div style=3D"text-align: left; text-indent: 0px; text-transform: none; mar=
+gin: 0px; font-family: Aptos, sans-serif; font-size: 9pt; color: rgb(125, 1=
+25, 125);">
+<b>Product Owner | UDBW - Workshop Production | &nbsp;Scania CV AB</b></div=
+>
+<div style=3D"text-align: left; text-indent: 0px; text-transform: none; mar=
+gin: 0px; font-family: Aptos, sans-serif; font-size: 9pt;">
+<span style=3D"color: rgb(125, 125, 125);"><b>Mobile: &nbsp;</b></span><spa=
+n style=3D"color: rgb(0, 134, 240);"><b>+46 (0) 737608216</b></span></div>
+<div style=3D"text-align: left; text-indent: 0px; text-transform: none; mar=
+gin: 0px; font-family: Aptos, sans-serif; font-size: 9pt;">
+<span style=3D"color: rgb(122, 122, 122);"><b>B260, </b></span><span style=
+=3D"color: currentcolor;"><b>Verkstadsv=E4gen 11</b></span><span style=3D"c=
+olor: rgb(122, 122, 122);"><b>, 151 38, S=F6dert=E4lje</b></span></div>
+<div style=3D"direction: ltr; text-align: left; text-indent: 0px; text-tran=
+sform: none; margin: 0px; font-family: Aptos, sans-serif; font-size: 9pt; c=
+olor: rgb(122, 122, 122);">
+<b><br>
+</b></div>
+<div style=3D"direction: ltr; font-family: Aptos, Aptos_MSFontService, -app=
+le-system, Roboto, Arial, Helvetica, sans-serif; font-size: 12pt; color: rg=
+b(0, 0, 0);">
+<span style=3D"text-transform: none;"><img src=3D"cid:84DAF6D8-FE3F-4998-A4=
+14-6A2FC34A40BD" alt=3D"signatureImage" id=3D"id-signature-image-8AECB418-C=
+2F2-4771-A801-6B8A06E0F77C" style=3D"max-width: 488px;"></span></div>
+<div style=3D"direction: ltr; font-family: Aptos, Aptos_MSFontService, -app=
+le-system, Roboto, Arial, Helvetica, sans-serif; font-size: 12pt; color: rg=
+b(0, 0, 0);">
+<span style=3D"text-transform: none;"><br>
+</span></div>
+</div>
+</body>
+</html>
+
+--_000_MRWPR04MB12094A4BA0D5104F0D06D04299B802MRWPR04MB12094eu_--
+
+--_004_MRWPR04MB12094A4BA0D5104F0D06D04299B802MRWPR04MB12094eu_
+Content-Type: image/png; name="img-b53cbaf8-171b-48f9-9697-42dadd8038d5.png"
+Content-Description: img-b53cbaf8-171b-48f9-9697-42dadd8038d5.png
+Content-Disposition: inline;
+	filename="img-b53cbaf8-171b-48f9-9697-42dadd8038d5.png"; size=7542;
+	creation-date="Fri, 25 Sep 2026 11:04:38 GMT";
+	modification-date="Mon, 12 Oct 2026 02:47:48 GMT"
+Content-ID: <84DAF6D8-FE3F-4998-A414-6A2FC34A40BD>
+Content-Transfer-Encoding: base64
+
+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
+89/nH+qB/wH7rdtxW+WidgAAAABJRU5ErkJggg==
+
+--_004_MRWPR04MB12094A4BA0D5104F0D06D04299B802MRWPR04MB12094eu_--
